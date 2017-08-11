@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ahyadrosyad.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.ahyadrosyad.app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="DATABASE"
+            android:value="guide_db_4.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.ahyadrosyad.app.entity" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <service android:name="com.ahyadrosyad.app.services.NewsFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.ahyadrosyad.app.services.FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.ahyadrosyad.app.manager.TempActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.ahyadrosyad.app.ui.activity.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.LoginActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.RegisterActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.RequestActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.ForgotActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.ResetActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.AccountActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.PasswordActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.EditActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.PolicyActivity"
+            android:parentActivityName="com.ahyadrosyad.app.ui.activity.MainActivity" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.ContactActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.AboutActivity"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.GuideActivity"
+            android:parentActivityName="com.ahyadrosyad.app.ui.activity.MainActivity" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.FavoritesActivity"
+            android:parentActivityName="com.ahyadrosyad.app.ui.activity.MainActivity" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.SettingsActivity"
+            android:parentActivityName="com.ahyadrosyad.app.ui.activity.MainActivity" />
+        <activity
+            android:name="com.ahyadrosyad.app.ui.activity.SearchActivity"
+            android:parentActivityName="com.ahyadrosyad.app.ui.activity.MainActivity"></activity>
+    </application>
+
+</manifest>

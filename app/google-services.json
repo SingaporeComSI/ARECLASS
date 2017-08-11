@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "184934232740",
+    "firebase_url": "https://ahyadrosyad-b4cef.firebaseio.com",
+    "project_id": "ahyadrosyad-b4cef",
+    "storage_bucket": "ahyadrosyad-b4cef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184934232740:android:752a12f5f5935fac",
+        "android_client_info": {
+          "package_name": "com.ahyadrosyad.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184934232740-t5c34o2i2luebbrsbqme9nins3pspcc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcPTdqZC1oIr-ZDAzCC1vbxlUcbiR937k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

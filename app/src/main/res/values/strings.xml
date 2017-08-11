@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Strings written in Indonesian Language (ID), you can be replace or create new class for multilanguage-->
+
+    <string name="app_name">AHYAD ROSYAD COM</string>
+    <!-- place your facebook app id here -->
+    <string name="facebook_app_id">1620991541526668</string>
+
+    <!-- About page for informations -->
+    <string name="app_twitter">https://twitter.com/ahyadrosyad</string>
+    <string name="app_instagram">https://www.instagram.com/ahyadrosyad</string>
+    <string name="app_facebook">https://www.facebook.com/ahyadrosyad.ar</string>
+    <string name="app_email">dev@ahyadrosyad.com</string>
+    <string name="app_website">http://www.ahyadrosyad.com</string>
+
+    <string name="navigation_drawer_open">Buka</string>
+    <string name="navigation_drawer_close">Tutup</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="hello_blank_fragment">Halo!! Opsss masih kosong</string>
+    <string name="main_search_hint">Apa yang kamu cari....</string>
+    <string name="please_signin">Masuk disini</string>
+    <string name="please_signup">Daftar disini</string>
+    <string name="login_button">Masuk</string>
+    <string name="registre_button">Daftar</string>
+    <string name="registre_button_login">Baru? daftar sekarang</string>
+    <string name="forgot_password">Lupa password ?</string>
+    <string name="login_gg_text">Masuk dengan Google</string>
+    <string name="login_fb_text">Masuk dengan Facebook</string>
+    <string name="registre_fb_text">Daftar dengan Facebook</string>
+    <string name="registre_gg_text">Daftar dengan Google</string>
+    <string name="or_sign_up">atau bergabung</string>
+    <string name="action_saved">Favorit saya</string>
+    <string name="contact_us">Hubungi kami</string>
+    <string name="action_home">Beranda</string>
+    <string name="about_us">Tentang kami</string>
+    <string name="nav_share">Bagikan Apps ini</string>
+    <string name="policy_privacy">Kebijakan Privasi</string>
+
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirm">Konfirmasi password</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_name">Nama lengkap</string>
+    <string name="error_mail_valide">Masukan e-mail yang benar</string>
+    <string name="error_short_value">Ini terlalu pendek</string>
+    <string name="error_password_confirm">Passwords tidak sama</string>
+    <string name="error_password_short">Masukan password yang benar</string>
+    <string name="operation_progress">Sedang memproses</string>
+    <string name="message_logout">Berhasil keluar</string>
+    <string name="no_connexion">Masalah jaringan</string>
+    <string name="change_password">Ganti password</string>
+    <string name="change_photo">Ganti Gambar Profil</string>
+    <string name="edit_name">Edit Nama</string>
+    <string name="logout">Keluar</string>
+    <string name="take_picture">PILIH FOTO</string>
+    <string name="choose_picture">PILIH DARI GALERI</string>
+    <string name="Cancel">Batal</string>
+    <string name="error_server">Permintaan saat ini tidak tersedia. Mohon ulangi, jika sering terjadi mohon hub. ke problem@ahyadrosyad.com</string>
+    <string name="profile_pic_edited">Foto profil sudah diperbarui</string>
+    <string name="policy_privacy_contnet">Dengan menggunakan aplikasi ini berarti anda menyetujui Syarat, ketentuan dan kebijakan privasi. Pelajari Privasi: <b><a href="https://www.ahyadrosyad.com/privacy">https://www.ahyadrosyad.com/privacy</a></b></string>
+    <string name="url_app_google_play">https://play.google.com/store/apps/details?id=</string>
+    <string name="hint_message">Pesan kamu</string>
+    <string name="send_support">Kirim Pesan</string>
+    <string name="message_sended">Pesan berhasil terkirim</string>
+    <string name="message_logout_desibaled">Kamu tidak masuk - Berati tidak aktif</string>
+    <string name="retry">ULANGI</string>
+    <string name="all">SEMUA</string>
+    <string name="global">Global</string>
+    <string name="action_share">Bagikan</string>
+    <string name="action_save">Simpan di Favorit</string>
+
+    <!-- replace with you ad unit (Adsense or Admob). Put any size or format -->
+    <string name="native_ad_unit">ca-app-pub-8872472878058149/6554994595</string>
+    <string name="write_comment">Punya pendapat?</string>
+    <string name="comment_hidden">Komentar ini disembunyikan</string>
+    <string name="now_time">Sekarang</string>
+    <string name="version_label">Versi</string>
+    <string name="title_notification">Mau dapat Pemberitahuan terbaru?</string>
+    <string name="label_notification">Aktifkan Pemberitahuan</string>
+
+</resources>
